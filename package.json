@@ -15,7 +15,8 @@
     "bin",
     "lib",
     "scripts",
-    "src"
+    "src",
+    ".babelrc"
   ],
   "scripts": {
     "build": "babel src --out-dir lib --source-maps",
