@@ -14,7 +14,7 @@ const localCli = path.resolve(process.cwd(), 'node_modules/roc/bin/cli');
 if (currentCli !== localCli) {
     // Are we global?
     if (!fileExists(path.resolve(process.cwd(), 'node_modules/.bin/roc'))) {
-        updateNotifier({ pkg }).notify({ defer: false });
+        updateNotifier({ pkg: pkg }).notify({ defer: false });
         require(currentCli);
     } else {
         // Will try to use the local CLI over the global one
