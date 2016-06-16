@@ -29,7 +29,6 @@
     "docs": "node bin/index.js markdown-commands > docs/DefaultCommands.md",
     "esdocs": "esdoc -c esdoc.json",
     "prepublish": "npm test && npm run clean && npm run build && npm run esdocs",
-    "postinstall": "node ./scripts/post-install.js"
   },
   "repository": {
     "type": "git",
