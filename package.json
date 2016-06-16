@@ -14,7 +14,8 @@
     "validators",
     "bin",
     "lib",
-    "scripts"
+    "scripts",
+    "src"
   ],
   "scripts": {
     "build": "babel src --out-dir lib --source-maps",
